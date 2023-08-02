@@ -1,23 +1,23 @@
 {
-  "name": "terminal",
+  "name": "olga_",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lechien73/terminal.git"
+    "url": "git+https://github.com/OlgaKuvs/jest1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lechien73/terminal/issues"
+    "url": "https://github.com/OlgaKuvs/jest1/issues"
   },
-  "homepage": "https://github.com/lechien73/terminal#readme",
-  "dependencies": {
-    "node-static": "^0.7.11",
-    "node-pty": "^0.10.1",
-    "total4": "^0.0.45"
+  "homepage": "https://github.com/OlgaKuvs/jest1#readme",
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "jest-environment-jsdom": "^29.6.2"
   }
 }
